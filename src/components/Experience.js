@@ -1,7 +1,8 @@
-import { Row, Tab } from "react-bootstrap"
-import ProfileCard from "./ProfileCard"
+import React from 'react'
+import { Row, Tab } from 'react-bootstrap'
+import ProfileCard from './ProfileCard'
 
-const Projects = works => {
+const Experience = (works) => {
     return (
         <Tab.Pane eventKey="first">
             <Row>
@@ -16,7 +17,8 @@ const Projects = works => {
                     })
                 }
             </Row>
-        </Tab.Pane>)
+        </Tab.Pane>
+    )
 }
 
-export default Projects
+export default Experience

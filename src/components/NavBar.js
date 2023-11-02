@@ -4,9 +4,7 @@ import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
-import { Link } from 'react-bootstrap-icons';
-
-
+import { Link } from 'react-router-dom';
 
 function NavBar() {
 
@@ -47,15 +45,13 @@ function NavBar() {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href="#"><img src={navIcon1} alt="" /></a>
-                            <a href="#"><img src={navIcon2} alt="" /></a>
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/mherrevi/"><img src={navIcon1} alt="" /></a>
+                            <a href="https://github.com/miguelherreravillanueva"><img src={navIcon2} alt="" /></a>
+                            <a href="https://www.instagram.com/miki.hv/"><img src={navIcon3} alt="" /></a>
                         </div>
-                        <Link to = "Contact">
                         <button className='vvd' onClick={() => console.log('connect')}>
                             <span>Let's connect</span>
                         </button>
-                        </Link>
                     </span>
                 </Navbar.Collapse>
             </Container>
