@@ -1,14 +1,18 @@
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import ProfileCard from "./ProfileCard";
 import quiz from "../assets/img/quiz.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import thebridge from "../assets/img/thebridge.jpeg";
+import founderz from "../assets/img/founderz.jpeg";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import ExperienceCard from "./ExperienceCard";
+import EducationCard from "./EducationCard";
+import ProjectCard from "./ProjectCard";
 
-const Profile = ({ projects, experience, education }) => {
+const Profile = () => {
 
     const projectsData = [
         {
@@ -21,38 +25,42 @@ const Profile = ({ projects, experience, education }) => {
             title: "Shoe Shop",
             description: "Buy your bests shoes",
             imgUrl: projImg2,
+            url:"",
         },
         {
             title: "Cosmetics e-commerce",
             description: "Care for your skin",
             imgUrl: projImg3,
+            url:"",
         },
         {
             title: "Social Network",
             description: "Your trusted network",
             imgUrl: projImg3,
+            url:"",
         },
     ];
+
     const experienceData = [
         {
             title: "Fullstack Teacher Assistant",
-            description: "",
-            imgUrl: projImg3,
-            url: ""
+            description: "EDEM-The Bridge, 2023",
+            imgUrl: thebridge
         },
     ];
 
     const educationData = [
         {
             title: "IA & Innovation",
-            description: "Máster",
-            imgUrl: projImg3,
-            url: ""
+            description: "Founderz, 2023",
+            description2: "",
+            imgUrl: founderz,
         },
         {
             title: "Fullstack MERN",
-            description: "Máster",
-            imgUrl: projImg2,
+            description: "The Bridge | Digital Talent Accelerator, 2022-2023",
+            description2: "",
+            imgUrl: thebridge,
         },
     ];
 
@@ -83,8 +91,9 @@ const Profile = ({ projects, experience, education }) => {
                                                 <Row>
                                                     {
                                                         projectsData.map((project, index) => {
+                                                    
                                                             return (
-                                                                <ProfileCard
+                                                                <ProjectCard
                                                                     key={index}
                                                                     {...project}
                                                                 />
@@ -95,10 +104,14 @@ const Profile = ({ projects, experience, education }) => {
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
                                                 <Row>
+                                                <ExperienceCard
+                                                             
+                                                                />
                                                     {
                                                         experienceData.map((exp, index) => {
+                                                          console.log("yee",exp)
                                                             return (
-                                                                <ProfileCard
+                                                                <ExperienceCard
                                                                     key={index}
                                                                     {...exp}
                                                                 />
@@ -112,7 +125,7 @@ const Profile = ({ projects, experience, education }) => {
                                                     {
                                                         educationData.map((edu, index) => {
                                                             return (
-                                                                <ProfileCard
+                                                                <EducationCard
                                                                     key={index}
                                                                     {...edu}
                                                                 />
