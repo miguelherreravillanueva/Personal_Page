@@ -1,8 +1,9 @@
 import { Col } from "react-bootstrap";
 
-const ProfileCard = ({ title, description, imgUrl }) => {
-    return (
-      <Col size={12} sm={6} md={4}>
+const ProfileCard = ({ title, description, imgUrl, url }) => {
+  return (
+    <Col size={12} sm={6} md={4}>
+      <a href={url}>
         <div className="proj-imgbx">
           <img src={imgUrl} />
           <div className="proj-txtx">
@@ -10,8 +11,9 @@ const ProfileCard = ({ title, description, imgUrl }) => {
             <span>{description}</span>
           </div>
         </div>
-      </Col>
-    )
+      </a>
+    </Col>
+  )
 }
 
 export default ProfileCard
