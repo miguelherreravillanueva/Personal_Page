@@ -47,7 +47,7 @@ function NavBar() {
                             <a href="https://www.linkedin.com/in/mherrevi/"><img src={navIcon1} alt="" /></a>
                             <a href="https://github.com/miguelherreravillanueva"><img src={navIcon2} alt="" /></a>
                             <a href="https://www.instagram.com/miki.hv/"><img src={navIcon3} alt="" /></a>
-                            <a href="https://www.instagram.com/miki.hv/"><img src={navIcon4} alt="" /></a>
+                            <a href="../assets/1.CV_Miguel_Herrera_Villanueva_(en).pdf" download="1.CV_Miguel_Herrera(en)"><img src={navIcon4} alt="" /></a>
                         </div>
                         <button className='vvd' onClick={() => console.log('connect')}>
                             <span>Let's connect</span>
@@ -60,3 +60,5 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
