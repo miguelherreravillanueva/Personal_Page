@@ -48,9 +48,11 @@ function NavBar() {
                             <a href="https://www.instagram.com/miki.hv/"><img src={navIcon3} alt="" /></a>
                             <a href="https://drive.google.com/file/d/1stdGsutym2X4rqni-toc5Pu3qYeHEUxV/view" download="CV_MiguelHerrera" ><img src={navIcon4} alt="" /></a>
                         </div>
-                        <button className='vvd' onClick={() => console.log('connect')}>
-                            <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Contact</Nav.Link>
-                        </button>
+                        <Nav className="me-auto">
+                            <button className='vvd'>
+                                <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Let's connect</Nav.Link>
+                            </button>
+                        </Nav>
                     </span>
                 </Navbar.Collapse>
             </Container>
