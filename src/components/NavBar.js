@@ -7,7 +7,6 @@ import navIcon3 from '../assets/img/nav-icon3.svg'
 import navIcon4 from '../assets/img/nav-icon4.svg'
 
 function NavBar() {
-
     const [activeLink, setActiveLink] = useState('home')
     const [scrolled, setScrolled] = useState(false)
 
@@ -47,10 +46,10 @@ function NavBar() {
                             <a href="https://www.linkedin.com/in/mherrevi/"><img src={navIcon1} alt="" /></a>
                             <a href="https://github.com/miguelherreravillanueva"><img src={navIcon2} alt="" /></a>
                             <a href="https://www.instagram.com/miki.hv/"><img src={navIcon3} alt="" /></a>
-                            <a href="../assets/1.CV_Miguel_Herrera_Villanueva_(en).pdf" download="1.CV_Miguel_Herrera(en)"><img src={navIcon4} alt="" /></a>
+                            <a href="https://drive.google.com/file/d/1stdGsutym2X4rqni-toc5Pu3qYeHEUxV/view" download="CV_MiguelHerrera" ><img src={navIcon4} alt="" /></a>
                         </div>
                         <button className='vvd' onClick={() => console.log('connect')}>
-                            <span>Let's connect</span>
+                            <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Contact</Nav.Link>
                         </button>
                     </span>
                 </Navbar.Collapse>
