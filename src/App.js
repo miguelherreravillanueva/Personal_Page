@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
+import Background from './components/Background';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Skills />
       <Profile/>
+      <Background/>
       <Contact/>
       <Footer/>
 

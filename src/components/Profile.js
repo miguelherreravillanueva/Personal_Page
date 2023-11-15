@@ -78,78 +78,80 @@ const Profile = () => {
 
     return (
         <section className="project" id="projects">
-            <Container>
-                <Row>
-                    <Col size={12}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <h2>Profile</h2>
-                                    <p>This is what I've done</p>
-                                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                                        <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="first">Projects</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="second">Experience</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="third">Education</Nav.Link>
-                                            </Nav.Item>
-                                        </Nav>
-                                        <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                                            <Tab.Pane eventKey="first">
-                                                <Row>
-                                                    {
-                                                        projectsData.map((project, index) => {
-                                                            return (
-                                                                <ProjectCard
-                                                                    key={index}
-                                                                    {...project}
-                                                                />
-                                                            )
-                                                        })
-                                                    }
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="second">
-                                                <Row>
-                                                    {
-                                                        experienceData.map((exp, index) => {
-                                                            return (
-                                                                <ExperienceCard
-                                                                    key={index}
-                                                                    {...exp}
-                                                                />
-                                                            )
-                                                        })
-                                                    }
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="third">
-                                                <Row>
-                                                    {
-                                                        educationData.map((edu, index) => {
-                                                            return (
-                                                                <EducationCard
-                                                                    key={index}
-                                                                    {...edu}
-                                                                />
-                                                            )
-                                                        })
-                                                    }
-                                                </Row>
-                                            </Tab.Pane>
-                                        </Tab.Content>
-                                    </Tab.Container>
-                                </div>}
-                        </TrackVisibility>
-                    </Col>
-                </Row>
-            </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
-        </section>
+    <Container>
+        <Row>
+            <Col size={12}>
+                <TrackVisibility>
+                    {({ isVisible }) =>
+                        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                            <div className="project-bx wow zoomIn">
+                                <h2>Profile</h2>
+                                <p>This is what I've done</p>
+                                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="first">Projects</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="second">Experience</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="third">Education</Nav.Link>
+                                        </Nav.Item>
+                                    </Nav>
+                                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                                        <Tab.Pane eventKey="first">
+                                            <Row>
+                                                {
+                                                    projectsData.map((project, index) => {
+                                                        return (
+                                                            <ProjectCard
+                                                                key={index}
+                                                                {...project}
+                                                            />
+                                                        )
+                                                    })
+                                                }
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="second">
+                                            <Row>
+                                                {
+                                                    experienceData.map((exp, index) => {
+                                                        return (
+                                                            <ExperienceCard
+                                                                key={index}
+                                                                {...exp}
+                                                            />
+                                                        )
+                                                    })
+                                                }
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="third">
+                                            <Row>
+                                                {
+                                                    educationData.map((edu, index) => {
+                                                        return (
+                                                            <EducationCard
+                                                                key={index}
+                                                                {...edu}
+                                                            />
+                                                        )
+                                                    })
+                                                }
+                                            </Row>
+                                        </Tab.Pane>
+                                    </Tab.Content>
+                                </Tab.Container>
+                            </div>
+                        </div>}
+                </TrackVisibility>
+            </Col>
+        </Row>
+    </Container>
+    <img className="background-image-right" src={colorSharp2}></img>
+</section>
     )
 }
 
