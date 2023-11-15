@@ -8,7 +8,6 @@ import social_network from "../assets/img/social_network.png";
 import e_commerce from "../assets/img/e_commerce.png";
 import newspage from "../assets/img/newspage.png";
 import shoe_shop from "../assets/img/shoe_shop.png";
-// import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import ExperienceCard from "./ExperienceCard";
 import EducationCard from "./EducationCard";

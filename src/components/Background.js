@@ -3,9 +3,10 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import taekwondo from "../assets/img/taekwondo.png";
 import scouts from "../assets/img/scouts.png";
+import fragmenta from "../assets/img/fragmenta.png";
 import starbucks from "../assets/img/starbucks.png";
 import ub from "../assets/img/ub.png";
-import founderz from "../assets/img/founderz.jpeg";
+import uned from "../assets/img/uned.png";
 import TrackVisibility from 'react-on-screen';
 import ExperienceCard from "./ExperienceCard";
 import EducationCard from "./EducationCard";
@@ -16,16 +17,22 @@ const Background = () => {
         {
             title: "Taekwondo",
             description: "Black belt taekwondo lover",
-            imgUrl: taekwondo, //logo TKD
+            imgUrl: taekwondo,
         },
         {
             title: "Scouts",
-            description: "Live style 2001-2021",
-            imgUrl: scouts, //logo Scouts
+            description: "Grupo Scouts La Salle 214",
+            imgUrl: scouts,
         },
     ];
 
     const experienceData = [
+        {
+            title: "Translator & Proofreader",
+            subtitle: "Fragmenta Editorial, 2019",
+            description: "Text spelling and translation corrections in Spanish and Catalan, incorporation of edits, bibliography correction, text formatting, order management, customer registration, communication support, customer service, and general management.",
+            imgUrl: fragmenta,
+        },
         {
             title: "Shift Supervisor",
             subtitle: "Starbucks Coffee Company, 2011-2021",
@@ -39,13 +46,13 @@ const Background = () => {
             title: "Editing & Proofreading ",
             subtitle: "Universitat Oberta de Catalunya UNED, 2020-2021",
             description: "Specialized training on the editing and correction processes from the reception of the original to the editorial production phase.",
-            imgUrl: founderz, // logo UNED
+            imgUrl: uned,
         },
         {
             title: "Arabic & Hebrew Studies",
             subtitle: "Universitat Barcelona UB, 2016-2020",
             description: "Proficient in Arabic and Hebrew languages, adept at analyzing literary texts. Knowledgeable about Arab, Islamic, and Jewish cultures, institutions, and historical events.",
-            imgUrl: ub //logo UB
+            imgUrl: ub
         },
     ];
 
