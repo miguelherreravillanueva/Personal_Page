@@ -85,7 +85,7 @@ const Profile = () => {
                         <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <div className="project-bx wow zoomIn">
                                 <h2>Profile</h2>
-                                <p>This is what I've done</p>
+                                <p>This is what I've done and keep going!</p>
                                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                         <Nav.Item>

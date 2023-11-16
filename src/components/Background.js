@@ -57,17 +57,17 @@ const Background = () => {
     ];
 
     return (
-        <section className="project" id="projects">
+        <section className="background" id="background">
             <Container>
                 <Row>
                     <Col size={12}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <div className="project-bx wow zoomIn">
+                                    <div className="background-bx wow zoomIn">
                                         <h2>Background</h2>
                                         <p>In addition to my career and studies in the IT sector, I bring a rich cultural background derived from previous studies and experiences that have brought me to where I am today, fostering both professional and personal growth.</p>
-                                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                                        <Tab.Container id="backgrounds-tabs" defaultActiveKey="first">
                                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="first">Experience</Nav.Link>
