@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Profile from './components/Profile';
 import Background from './components/Background';
+import Hobbies from './components/Hobbies';
+import Languages from './components/Languages';
 
 
 function App() {
@@ -15,11 +17,12 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Profile/>
-      <Background/>
-      <Contact/>
-      <Footer/>
-
+      <Languages/>
+      <Profile />
+      <Background />
+      <Hobbies />
+      <Contact />
+      <Footer />
     </div>
   );
 }

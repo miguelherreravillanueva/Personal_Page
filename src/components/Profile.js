@@ -9,9 +9,7 @@ import e_commerce from "../assets/img/e_commerce.png";
 import newspage from "../assets/img/newspage.png";
 import shoe_shop from "../assets/img/shoe_shop.png";
 import TrackVisibility from 'react-on-screen';
-import ExperienceCard from "./ExperienceCard";
-import EducationCard from "./EducationCard";
-import ProjectCard from "./ProjectCard";
+import Card from "./Card";
 
 const Profile = () => {
 
@@ -85,7 +83,7 @@ const Profile = () => {
                         <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <div className="project-bx wow zoomIn">
                                 <h2>Profile</h2>
-                                <p>This is what I've done and keep going!</p>
+                                <p>This is what I've done and continue to do!</p>
                                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                         <Nav.Item>
@@ -104,7 +102,7 @@ const Profile = () => {
                                                 {
                                                     projectsData.map((project, index) => {
                                                         return (
-                                                            <ProjectCard
+                                                            <Card
                                                                 key={index}
                                                                 {...project}
                                                             />
@@ -118,7 +116,7 @@ const Profile = () => {
                                                 {
                                                     experienceData.map((exp, index) => {
                                                         return (
-                                                            <ExperienceCard
+                                                            <Card
                                                                 key={index}
                                                                 {...exp}
                                                             />
@@ -132,7 +130,7 @@ const Profile = () => {
                                                 {
                                                     educationData.map((edu, index) => {
                                                         return (
-                                                            <EducationCard
+                                                            <Card
                                                                 key={index}
                                                                 {...edu}
                                                             />

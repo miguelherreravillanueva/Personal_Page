@@ -1,30 +1,16 @@
-import React from 'react'
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import taekwondo from "../assets/img/taekwondo.png";
-import scouts from "../assets/img/scouts.png";
 import fragmenta from "../assets/img/fragmenta.png";
 import starbucks from "../assets/img/starbucks.png";
 import ub from "../assets/img/ub.png";
 import uned from "../assets/img/uned.png";
+import ai from "../assets/img/ai.png";
+import dexs from "../assets/img/dexs.png";
+import cisco from "../assets/img/cisco.png";
 import TrackVisibility from 'react-on-screen';
-import ExperienceCard from "./ExperienceCard";
-import EducationCard from "./EducationCard";
-import ProjectCard from "./ProjectCard";
+import Card from "./Card";
 
 const Background = () => {
-    const projectsData = [
-        {
-            title: "Taekwondo",
-            description: "Black belt taekwondo lover",
-            imgUrl: taekwondo,
-        },
-        {
-            title: "Scouts",
-            description: "Grupo Scouts La Salle 214",
-            imgUrl: scouts,
-        },
-    ];
 
     const experienceData = [
         {
@@ -56,6 +42,24 @@ const Background = () => {
         },
     ];
 
+    const coursesData = [
+        {
+            title: "ChatGPT Prompt Engineering for Developers",
+            subtitle: "DeepLearning.AI, 2023",
+            imgUrl: ai,
+        },
+        {
+            title: "Microsoft Sharepoint Framework & Microsoft Power Platform",
+            subtitle: "DEXS",
+            imgUrl: dexs,
+        },
+        {
+            title: "Python",
+            subtitle: "CISCO",
+            imgUrl: cisco,
+        },
+    ]
+
     return (
         <section className="background" id="background">
             <Container>
@@ -76,7 +80,7 @@ const Background = () => {
                                                     <Nav.Link eventKey="second">Education</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="third">Hobbies</Nav.Link>
+                                                    <Nav.Link eventKey="third">Courses</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
                                             <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -85,7 +89,7 @@ const Background = () => {
                                                         {
                                                             experienceData.map((exp, index) => {
                                                                 return (
-                                                                    <ExperienceCard
+                                                                    <Card
                                                                         key={index}
                                                                         {...exp}
                                                                     />
@@ -99,7 +103,7 @@ const Background = () => {
                                                         {
                                                             educationData.map((edu, index) => {
                                                                 return (
-                                                                    <EducationCard
+                                                                    <Card
                                                                         key={index}
                                                                         {...edu}
                                                                     />
@@ -111,11 +115,11 @@ const Background = () => {
                                                 <Tab.Pane eventKey="third">
                                                     <Row>
                                                         {
-                                                            projectsData.map((project, index) => {
+                                                            coursesData.map((course, index) => {
                                                                 return (
-                                                                    <ProjectCard
+                                                                    <Card
                                                                         key={index}
-                                                                        {...project}
+                                                                        {...course}
                                                                     />
                                                                 )
                                                             })
