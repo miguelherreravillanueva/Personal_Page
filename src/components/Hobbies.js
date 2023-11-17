@@ -1,4 +1,5 @@
-import html from "../assets/img/html.png"
+import scouts from "../assets/img/scouts.png"
+import taekwondo from "../assets/img/taekwondo.png"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png"
@@ -30,11 +31,15 @@ const Hobbies = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Hobbies</h2>
-                            <p>I actually work with...</p>
+                            <p>This experience has led me to become the person I am today, providing me with discipline and responsibility to be a good professional.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={html} alt="Image" />
-                                    <h5>HTML5</h5>
+                                    <img src={taekwondo} alt="Image" />
+                                    <h5>Taekwondo</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={scouts} alt="Image" />
+                                    <h5>Scouts</h5>
                                 </div>
                             </Carousel>
                         </div>
