@@ -1,4 +1,8 @@
-import html from "../assets/img/html.png"
+import italiano from "../assets/img/italiano.png"
+import español from "../assets/img/español.png"
+import catalan from "../assets/img/catalan.png"
+import ingles from "../assets/img/ingles.png"
+import arabe from "../assets/img/arabe.png"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png"
@@ -30,11 +34,27 @@ const Languages = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Languages</h2>
-                            <p>I actually work with...</p>
+                            <p>I speak these and learn more</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={html} alt="Image" />
-                                    <h5>HTML5</h5>
+                                    <img src={español} alt="Image" />
+                                    <h5>Spanish - Native</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={catalan} alt="Image" />
+                                    <h5>Catalan - Native</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={ingles} alt="Image" />
+                                    <h5>English - C1</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={arabe} alt="Image" />
+                                    <h5>Arabic - B2</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={italiano} alt="Image" />
+                                    <h5>Italian - B1</h5>
                                 </div>
                             </Carousel>
                         </div>
