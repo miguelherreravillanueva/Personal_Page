@@ -28,14 +28,14 @@ const Languages = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="language" id="languages">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="skill-bx wow zoomIn">
+                        <div className="language-bx wow zoomIn">
                             <h2>Languages</h2>
                             <p>I speak these and learn more</p>
-                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme language-slider">
                                 <div className="item">
                                     <img src={español} alt="Image" />
                                     <h5>Spanish - Native</h5>

@@ -25,14 +25,14 @@ const Hobbies = () => {
     };
 
     return (
-        <section className="skill" id="hobbies">
+        <section className="hobbie" id="hobbies">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="skill-bx wow zoomIn">
+                        <div className="hobbie-bx wow zoomIn">
                             <h2>Hobbies</h2>
                             <p>This experience has led me to become the person I am today, providing me with discipline and responsibility to be a good professional.</p>
-                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme hobbie-slider">
                                 <div className="item">
                                     <img src={taekwondo} alt="Image" />
                                     <h5>Taekwondo</h5>

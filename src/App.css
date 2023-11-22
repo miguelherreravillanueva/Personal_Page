@@ -87,13 +87,13 @@ select:focus {
   }
 }
 
-p.success {
+/* p.success {
   color: green;
 }
 
 p.danger {
   color: red;
-}
+} */
 
 /************ Navbar Css ************/
 nav.navbar {
@@ -361,6 +361,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: 60px;
 }
 
 .skill h2 {
@@ -383,6 +384,98 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item img {
+  width: 20%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+/************ Languages Css ************/
+.language {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.language-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.language h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.language p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.language-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.language-slider .item img {
+  width: 20%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+
+/************ Hobbies Css ************/
+.hobbie {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.hobbie-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  margin-bottom: 60px;
+}
+
+.hobbie h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.hobbie p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.hobbie-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hobbie-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
@@ -408,6 +501,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: -40px;
 }
 
 .project h2 {
@@ -578,6 +672,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: 60px;
 }
 
 .background h2 {
