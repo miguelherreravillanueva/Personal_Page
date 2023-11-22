@@ -36,11 +36,15 @@ const Contact = () => {
     setButtonText("Send");
     let result = await response.json().catch(error => console.error("Error parsing JSON:", error));
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (result.code === 200) {
       setStatus({ succes: true, message: 'Message sent successfully' });
     } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.' });
+      setStatus({ succes: false, message: 'Something went wrong, please try again later' });
     }
+
+    setTimeout(() => {
+      setStatus({});
+    }, 3000);
   };
 
   return (
@@ -80,7 +84,7 @@ const Contact = () => {
                       {
                         status.message &&
                         <Col>
-                          <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
+                           <p style={{ color: status.success ? 'white' : 'white' }}>{status.message}</p>
                         </Col>
                       }
                     </Row>
