@@ -272,7 +272,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/fondo1.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -353,6 +353,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-image: url('./assets/img/fondo1.png');
 }
 
 .skill-bx {
@@ -399,6 +400,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .language {
   padding: 0 0 50px 0;
   position: relative;
+  background-image: url('./assets/img/fondo1.png');
 }
 
 .language-bx {
@@ -445,6 +447,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .hobbie {
   padding: 0 0 50px 0;
   position: relative;
+  background-image: url('./assets/img/fondo1.png');
 }
 
 .hobbie-bx {
@@ -492,7 +495,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url('./assets/img/fondo1.png');
 }
 
 .project-bx {
@@ -663,7 +666,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .background {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url('./assets/img/fondo1.png');
 }
 
 .background-bx {
@@ -834,7 +837,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: url('./assets/img/fondo1.png');
   padding: 60px 0 200px 0;
 }
 
@@ -922,7 +925,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assets/img/fondo1.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
