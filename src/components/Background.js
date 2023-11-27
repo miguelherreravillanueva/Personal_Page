@@ -1,5 +1,4 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-// import colorSharp2 from "../assets/img/color-sharp2.png";
 import fragmenta from "../assets/img/fragmenta.png";
 import starbucks from "../assets/img/starbucks.png";
 import ub from "../assets/img/ub.png";
