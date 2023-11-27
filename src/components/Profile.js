@@ -1,7 +1,7 @@
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import quiz from "../assets/img/quiz.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+// import colorSharp2 from "../assets/img/color-sharp2.png";
 import thebridge from "../assets/img/thebridge.jpeg";
 import founderz from "../assets/img/founderz.jpeg";
 import social_network from "../assets/img/social_network.png";
@@ -147,7 +147,7 @@ const Profile = () => {
             </Col>
         </Row>
     </Container>
-    <img className="background-image-right" src={colorSharp2}></img>
+    {/* <img className="background-image-right" src={colorSharp2}></img> */}
 </section>
     )
 }

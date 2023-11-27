@@ -2,7 +2,6 @@ import scouts from "../assets/img/scouts.png"
 import taekwondo from "../assets/img/taekwondo.png"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import colorSharp from "../assets/img/color-sharp.png"
 
 const Hobbies = () => {
     const responsive = {
@@ -46,7 +45,6 @@ const Hobbies = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
     )
 

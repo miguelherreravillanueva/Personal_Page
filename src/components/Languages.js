@@ -5,7 +5,7 @@ import ingles from "../assets/img/ingles.png"
 import arabe from "../assets/img/arabe.png"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import colorSharp from "../assets/img/color-sharp.png"
+// import colorSharp from "../assets/img/color-sharp.png"
 
 const Languages = () => {
     const responsive = {
@@ -61,7 +61,7 @@ const Languages = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
+            {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
         </section>
     )
 }

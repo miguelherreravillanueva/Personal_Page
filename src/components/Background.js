@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+// import colorSharp2 from "../assets/img/color-sharp2.png";
 import fragmenta from "../assets/img/fragmenta.png";
 import starbucks from "../assets/img/starbucks.png";
 import ub from "../assets/img/ub.png";
@@ -134,7 +134,7 @@ const Background = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
+            {/* <img className="background-image-right" src={colorSharp2}></img> */}
         </section>
     )
 }

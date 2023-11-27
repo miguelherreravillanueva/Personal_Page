@@ -12,7 +12,6 @@ import mysql from "../assets/img/mysql.png"
 import nodejs from "../assets/img/nodejs.png"
 import sequelize from "../assets/img/sequelize.png"
 import docker from "../assets/img/docker.png"
-import colorSharp from "../assets/img/color-sharp.png"
 
 const Skills = () => {
     const responsive = {
@@ -96,7 +95,6 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
     )
 

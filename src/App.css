@@ -495,7 +495,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-image: url('./assets/img/fondo1.png');
+ background-image: url('./assets/img/fondo1.png');
 }
 
 .project-bx {
@@ -666,7 +666,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .background {
   padding: 80px 0;
   position: relative;
-  background-image: url('./assets/img/fondo1.png');
+  background-color: black;
 }
 
 .background-bx {
@@ -837,7 +837,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background-image: url('./assets/img/fondo1.png');
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
 
@@ -925,7 +925,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/fondo1.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
