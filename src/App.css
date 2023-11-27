@@ -87,14 +87,6 @@ select:focus {
   }
 }
 
-/* p.success {
-  color: green;
-}
-
-p.danger {
-  color: red;
-} */
-
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -107,7 +99,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #04151f;
 }
 
 nav.navbar a.navbar-brand {
@@ -178,7 +170,6 @@ span.navbar-text {
 
 .navbar-text button {
   font-weight: 700;
-  color: #fff;
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 18px;
@@ -192,22 +183,24 @@ span.navbar-text {
   z-index: 1;
 }
 
+.navbar-text button:hover {
+  color: #121212;
+}
+button.vvd:hover {
+  color: black; /* Cambia a cualquier color que desees */
+}
+
 .navbar-text button::before {
   content: "";
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background: #09726c;
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-
-.navbar-text button:hover {
-  color: #121212;
-}
-
 .navbar-text button:hover::before {
   content: "";
   width: 100%;

@@ -50,7 +50,7 @@ function NavBar() {
                             <a href="https://www.instagram.com/miki.hv/"><img src={navIcon3} alt="" /></a>
                             <a href="https://drive.google.com/file/d/1stdGsutym2X4rqni-toc5Pu3qYeHEUxV/view" download="CV_MiguelHerrera" ><img src={navIcon4} alt="" /></a>
                         </div>
-                        <Nav className="me-auto">
+                        <Nav className="    ">
                             <button className='vvd'>
                                 <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Let's connect</Nav.Link>
                             </button>
