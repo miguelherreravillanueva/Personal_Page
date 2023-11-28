@@ -188,7 +188,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background: #121212;
+  background: #1e2d36;
   left: 0;
   top: 0;
   z-index: -1;
@@ -896,7 +896,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #1e2d36;
   width: 0;
   height: 100%;
   position: absolute;

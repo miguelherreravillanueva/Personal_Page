@@ -2,12 +2,13 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import fragmenta from "../assets/img/fragmenta.png";
 import starbucks from "../assets/img/starbucks.png";
 import ub from "../assets/img/ub.png";
+import uv from "../assets/img/uv.jpeg";
 import uned from "../assets/img/uned.png";
 import ai from "../assets/img/ai.png";
 import dexs from "../assets/img/dexs.png";
 import cisco from "../assets/img/cisco.png";
 import TrackVisibility from 'react-on-screen';
-import Card from "./Card";
+import Card from "../Card";
 
 const Background = () => {
 
@@ -38,6 +39,12 @@ const Background = () => {
             subtitle: "Universitat Barcelona UB, 2016-2020",
             description: "Proficient in Arabic and Hebrew languages, adept at analyzing literary texts. Knowledgeable about Arab, Islamic, and Jewish cultures, institutions, and historical events.",
             imgUrl: ub
+        },
+        {
+            title: "Modern Languages & Literatures",
+            subtitle: "Universitat València UV, 2014-2016",
+            description: "Proficient in italian language, adept at analyzing literary texts. Knowledgeable about itaian and its culture and linguistics.",
+            imgUrl: uv
         },
     ];
 

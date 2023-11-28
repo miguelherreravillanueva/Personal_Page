@@ -1,12 +1,11 @@
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import quiz from "../assets/img/quiz.png";
-// import colorSharp2 from "../assets/img/color-sharp2.png";
+import qqsm from "../assets/img/qqsm.jpg";
 import thebridge from "../assets/img/thebridge.jpeg";
 import founderz from "../assets/img/founderz.jpeg";
-import social_network from "../assets/img/social_network.png";
+import gapnet from "../assets/img/gapnet.jpeg";
 import e_commerce from "../assets/img/e_commerce.png";
-import newspage from "../assets/img/newspage.png";
+import news from "../assets/img/news.jpeg";
 import shoe_shop from "../assets/img/shoe_shop.png";
 import TrackVisibility from 'react-on-screen';
 import Card from "./Card";
@@ -17,7 +16,7 @@ const Profile = () => {
         {
             title: "Quiz",
             description: "Game App",
-            imgUrl: quiz,
+            imgUrl: qqsm,
             url: "https://miguelherreravillanueva.github.io/Proyecto_Quiz/"
         },
         {
@@ -35,13 +34,13 @@ const Profile = () => {
         {
             title: "GapNet",
             description: "Social network",
-            imgUrl: social_network,
+            imgUrl: gapnet,
             url: "https://proyecto-react-social-network-cbqfmmpy7-miguelherreravillanueva.vercel.app/",
         },
         {
             title: "World Today",
             description: "Newspage",
-            imgUrl: newspage,
+            imgUrl: news,
             url: "https://proyecto-react-newspage.vercel.app/list",
         },
     ];
