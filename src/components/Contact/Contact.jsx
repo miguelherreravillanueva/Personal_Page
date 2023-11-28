@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactimg from "../assets/img/contactimg.png";
+import contactimg from "../../assets/img/contactimg.png";
 import TrackVisibility from 'react-on-screen';
+import "./Contact.css";
 
 const Contact = () => {
   const formInitialDetails = {

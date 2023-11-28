@@ -1,17 +1,19 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import javascript from "../assets/img/javascript.png"
-import react from "../assets/img/react.png"
-import html from "../assets/img/html.png"
-import css from "../assets/img/css.png"
-import sass from "../assets/img/sass.png"
-import mongodb from "../assets/img/mongodb.png"
-import git from "../assets/img/git.png"
-import jenkins from "../assets/img/jenkins.png"
-import mysql from "../assets/img/mysql.png"
-import nodejs from "../assets/img/nodejs.png"
-import sequelize from "../assets/img/sequelize.png"
-import docker from "../assets/img/docker.png"
+import javascript from "../../assets/img/javascript.png"
+import react from "../../assets/img/react.png"
+import html from "../../assets/img/html.png"
+import css from "../../assets/img/css.png"
+import sass from "../../assets/img/sass.png"
+import mongodb from "../../assets/img/mongodb.png"
+import git from "../../assets/img/git.png"
+import jenkins from "../../assets/img/jenkins.png"
+import mysql from "../../assets/img/mysql.png"
+import nodejs from "../../assets/img/nodejs.png"
+import sequelize from "../../assets/img/sequelize.png"
+import docker from "../../assets/img/docker.png"
+import "./Skills.css";
+
 
 const Skills = () => {
     const responsive = {

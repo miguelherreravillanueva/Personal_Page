@@ -1,14 +1,16 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import fragmenta from "../assets/img/fragmenta.png";
-import starbucks from "../assets/img/starbucks.png";
-import ub from "../assets/img/ub.png";
-import uv from "../assets/img/uv.jpeg";
-import uned from "../assets/img/uned.png";
-import ai from "../assets/img/ai.png";
-import dexs from "../assets/img/dexs.png";
-import cisco from "../assets/img/cisco.png";
+import fragmenta from "../../assets/img/fragmenta.png";
+import starbucks from "../../assets/img/starbucks.png";
+import ub from "../../assets/img/ub.png";
+import uv from "../../assets/img/uv.jpeg";
+import uned from "../../assets/img/uned.png";
+import ai from "../../assets/img/ai.png";
+import dexs from "../../assets/img/dexs.png";
+import cisco from "../../assets/img/cisco.png";
 import TrackVisibility from 'react-on-screen';
-import Card from "../Card";
+import Card from "../Card/Card";
+import "./Background.css";
+
 
 const Background = () => {
 
@@ -140,7 +142,6 @@ const Background = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-right" src={colorSharp2}></img> */}
         </section>
     )
 }

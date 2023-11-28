@@ -1,11 +1,12 @@
-import italiano from "../assets/img/italiano.png"
-import español from "../assets/img/español.png"
-import catalan from "../assets/img/catalan.png"
-import ingles from "../assets/img/ingles.png"
-import arabe from "../assets/img/arabe.png"
+import italiano from "../../assets/img/italiano.png"
+import español from "../../assets/img/español.png"
+import catalan from "../../assets/img/catalan.png"
+import ingles from "../../assets/img/ingles.png"
+import arabe from "../../assets/img/arabe.png"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import colorSharp from "../assets/img/color-sharp.png"
+import "./Languages.css";
+
 
 const Languages = () => {
     const responsive = {

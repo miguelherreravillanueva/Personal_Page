@@ -1,14 +1,14 @@
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import qqsm from "../assets/img/qqsm.jpg";
-import thebridge from "../assets/img/thebridge.jpeg";
-import founderz from "../assets/img/founderz.jpeg";
-import gapnet from "../assets/img/gapnet.jpeg";
-import e_commerce from "../assets/img/e_commerce.png";
-import news from "../assets/img/news.jpeg";
-import shoe_shop from "../assets/img/shoe_shop.png";
+import qqsm from "../../assets/img/qqsm.jpg";
+import thebridge from "../../assets/img/thebridge.jpeg";
+import founderz from "../../assets/img/founderz.jpeg";
+import gapnet from "../../assets/img/gapnet.jpeg";
+import e_commerce from "../../assets/img/e_commerce.png";
+import news from "../../assets/img/news.jpeg";
+import shoe_shop from "../../assets/img/shoe_shop.png";
 import TrackVisibility from 'react-on-screen';
-import Card from "./Card";
+import Card from "../Card/Card";
 
 const Profile = () => {
 
