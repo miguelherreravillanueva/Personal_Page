@@ -118,7 +118,7 @@ Don't forget to give the project a star! Thanks again!
 
 - Vista general de la web
 
-![foto](./src/assets/personalpage.gif)
+![foto](./src/assets/img/personalpage.gif)
 
 
 
