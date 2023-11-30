@@ -1,7 +1,6 @@
 import scouts from "../../assets/img/scouts.png"
 import taekwondo from "../../assets/img/taekwondo.png"
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import "./Hobbies.css";
 
 

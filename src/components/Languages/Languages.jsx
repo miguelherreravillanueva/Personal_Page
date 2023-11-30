@@ -4,7 +4,6 @@ import catalan from "../../assets/img/catalan.png"
 import ingles from "../../assets/img/ingles.png"
 import arabe from "../../assets/img/arabe.png"
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import "./Languages.css";
 
 
