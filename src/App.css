@@ -100,7 +100,7 @@ select:focus {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
-  margin-bottom: -40px;
+  margin-bottom: 20px;
 }
 
 .project h2 {
@@ -259,3 +259,53 @@ select:focus {
   z-index: -4;
 }
 
+/* Estilos comunes para tamaños de pantalla grandes */
+.background,
+.banner,
+.contact,
+.footer,
+.hobbie,
+.language,
+.navbar,
+.skill,
+.project {
+  padding: 0;
+}
+
+/* Nueva definición para tamaños de pantalla más pequeños */
+@media (max-width: 767px) {
+  .background,
+  .banner,
+  .contact,
+  .footer,
+  .hobbie,
+  .language,
+  .navbar,
+  .skill,
+  .project {
+    padding: 40px 0;
+  }
+
+  .banner {
+    padding: 120px 0 60px 0;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .banner button {
+    margin-top: 30px;
+  }
+
+  .banner button svg {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+
+  /* Ajustes adicionales según sea necesario */
+}

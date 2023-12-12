@@ -58,7 +58,7 @@ import "./Banner.css";
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Miguel`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer"]'><span className="wrap"><br/>
                     {text}</span></span></h1>
-                  <p><strong>Fullstack MERN</strong> Web Developer with a strong linguistic background, currently working as a <strong>Fullstack Teacher Assistant at EDEM-The Bridge</strong> in Valencia, Spain. I excel in tech solutions and efficient communication, being fluent in five languages for seamless collaboration in international teams.</p>
+                  <p><strong>Fullstack MERN</strong> Web Developer with a strong linguistic background, currently working as a <strong>Fullstack Developer at Oratrex</strong> in Valencia, Spain. I excel in tech solutions and efficient communication, being fluent in five languages for seamless collaboration in international teams.</p>
                   <button onClick={() => console.log('connect')}>Let’s explore <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

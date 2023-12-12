@@ -6,6 +6,7 @@ import founderz from "../../assets/img/founderz.jpeg";
 import gapnet from "../../assets/img/gapnet.jpeg";
 import e_commerce from "../../assets/img/e_commerce.png";
 import news from "../../assets/img/news.jpeg";
+import oratrex from "../../assets/img/oratrex_logo.jpeg";
 import shoe_shop from "../../assets/img/shoe_shop.png";
 import TrackVisibility from 'react-on-screen';
 import Card from "../Card/Card";
@@ -46,6 +47,13 @@ const Profile = () => {
     ];
 
     const experienceData = [
+        {
+            title: "Fullstack Developer",
+            subtitle: "Oratrex, 2023",
+            description: "Creating solutions and code for both frontend and backend.",
+            imgUrl: oratrex,
+            url: "https://edem.eu/",
+        },
         {
             title: "Fullstack Teacher Assistant",
             subtitle: "EDEM-The Bridge, 2023",
