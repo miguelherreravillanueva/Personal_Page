@@ -15,6 +15,11 @@ const Profile = () => {
 
     const projectsData = [
         {
+            title: "Brevo API",
+            description: "API call to send an email",
+            imgUrl: oratrex,
+        },
+        {
             title: "Quiz",
             description: "Game App",
             imgUrl: qqsm,
@@ -52,7 +57,7 @@ const Profile = () => {
             subtitle: "Oratrex, 2023",
             description: "Creating solutions and code for both frontend and backend.",
             imgUrl: oratrex,
-            url: "https://edem.eu/",
+            url: "https://oratrex.com//",
         },
         {
             title: "Fullstack Teacher Assistant",
